@@ -24,24 +24,24 @@
     --Dark-gray-blue: hsl(224, 30%, 27%);
 }
 
-
 html, body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
 p {
     font-size: 18px;
-    margin:0px;
+    margin: 0px;
+    font-weight: 500;
 }
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
+    align-items: baseline;
     margin: 48px 0px 48px 0px;
 }
-
 .container-item {
-    width: 300px;
+    width: 320px;
+    height: auto;
 }
 .result-page {
     border-radius: 10px;
@@ -49,21 +49,22 @@ p {
     color: var(--White);
     text-align: center;
 }
-
 .summary-page {
     margin: 24px;
     font-size: 18px;
 }
-
 .summary-header {
     color: var(--Dark-gray-blue)
 }
-
+.result-header {
+    font-size: 20px;
+    text-align: center;
+}
 .result-content {
-    height: auto;
+    height: 100%;
     text-align: center;
     padding: 24px;
-    margin-top: 24px;
+    margin-top: 12px;
     margin-bottom: 24px;
 }
 .summary-items {
@@ -74,26 +75,34 @@ p {
     float: right;
     padding-right: 12px;
 }
-
 .circle {
-    margin: 16px 64px 16px 64px;
-    height: 124px;
-    max-width: 50%;
+    margin: 32px 40px 16px 56px;
+    align-self: center;
+    height: 164px;
+    max-width: 164px;
     border-radius: 50%;
     background-image: linear-gradient(var(--Violet-blue), var(--Persian-blue));
 }
-
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0px;
-    padding-top: 12px;
+    padding-top: 36px;
 }
-
+h2 {
+    font-size: 2em;
+    padding: 6px 0px 6px 0px;
+}
 .box {
     height: 32px;
     padding: 12px 0px 12px 0px;
     border-radius: 6px;
     margin: 12px 0 12px 0px;
+}
+.light-lavender {
+    color: var(--Light-lavender);
+}
+.fine-text {
+    font-size: 18px;
 }
 .reaction {
     padding-left: 12px;
@@ -126,6 +135,7 @@ h1 {
     width: 100%;
     height: 56px;
     font-size: 18px;
+    margin-top: 12px;
 }
 
 .button:hover{
