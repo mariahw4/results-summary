@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screenshot.png)
+![](./assets/images/screenshot-main.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mariahw4/results-summary)
-- Live Site URL: [Add live site URL here](https://mariahw4.github.io/results-summary/)
+- Solution URL: [Github Repo](https://github.com/mariahw4/results-summary)
+- Live Site URL: [Github Pages](https://mariahw4.github.io/results-summary/)
 
 ## My process
 
